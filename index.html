@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="bonsai — Media Artist / Field × Engineering × AI × Business">
+  <title>bonsai — Portfolio</title>
+  <style>
+    :root{--bg:#fafafa;--fg:#111;--muted:#666;--line:#ddd;--card:#fff;--accent:#111}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.7}
+    a{color:inherit}.wrap{max-width:1100px;margin:auto;padding:0 24px}.hero{min-height:82vh;display:flex;align-items:center;padding:80px 0}.eyebrow{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}h1{font-size:clamp(3.5rem,11vw,8rem);line-height:.9;letter-spacing:-.06em;margin:18px 0 30px}h2{font-size:2rem;margin:0 0 28px}.lead{font-size:clamp(1.15rem,2vw,1.5rem);max-width:760px}.tags{display:flex;flex-wrap:wrap;gap:8px;margin:28px 0}.tag{border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:.85rem;background:var(--card)}section{padding:90px 0;border-top:1px solid var(--line)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}.card{background:var(--card);border:1px solid var(--line);padding:24px;min-height:190px}.card h3{margin:0 0 8px;font-size:1.2rem}.card p{color:var(--muted);margin:0 0 16px}.card a{font-size:.9rem}.flow{font-size:clamp(1.5rem,4vw,3rem);letter-spacing:-.03em}.flow span{color:var(--muted)}footer{padding:50px 0;color:var(--muted)}
+  </style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <div class="eyebrow">Media Artist · Saitama, Japan</div>
+  <h1>bonsai</h1>
+  <p class="lead">現場の課題を見つけ、技術を選び、AIとソフトウェアでPoCから運用までつなぐ。<strong>Field × Engineering × AI × Business</strong> を実践するセルフFDE。</p>
+  <div class="tags"><span class="tag">AI / Agent</span><span class="tag">Architecture</span><span class="tag">Data / BQML</span><span class="tag">Creative Coding</span><span class="tag">GitHub</span></div>
+  <p><a href="#work">Selected Work ↓</a></p>
+</div></header>
+
+<main>
+<section id="work"><div class="wrap"><h2>Selected Work</h2><div class="grid">
+  <article class="card"><h3>yose-db</h3><p>落語・講談・浪曲など、日本の寄席芸能を構造化。出演者・団体・会場・関係をデータとして扱う。</p><a href="https://github.com/bonsai/yose-db">GitHub →</a></article>
+  <article class="card"><h3>music-bigdata</h3><p>音楽・フェス・アイドルをデータ化し、文化を長期的に観測するためのBig Data / research project。</p><a href="https://github.com/bonsai/music-bigdata">GitHub →</a></article>
+  <article class="card"><h3>tango</h3><p>Agent Workflowの中間層。LLMを呼び、PLEGO / Plaggerの手足を使ってワークフローを動かす実行系。</p><a href="https://github.com/bonsai/tango">GitHub →</a></article>
+  <article class="card"><h3>batta</h3><p>ブラウザ上で形を生成するParametric Architecture maker。建築・幾何・Web技術を横断する。</p><a href="https://github.com/bonsai/batta">GitHub →</a></article>
+  <article class="card"><h3>github-observatory</h3><p>GitHub活動そのものを生データとして収集し、DWH / BQML / 可視化につなげる自己観測基盤。</p><a href="https://github.com/bonsai/github-observatory">GitHub →</a></article>
+  <article class="card"><h3>research-lab</h3><p>ResearchをRXとして設計。World Model、Animation、Architectureなどを実装と研究の間で循環させる。</p><a href="https://github.com/bonsai/research-lab">GitHub →</a></article>
+</div></div></section>
+
+<section><div class="wrap"><h2>How I Work</h2><p class="flow">Observe <span>→</span> Model <span>→</span> Prototype <span>→</span> Deploy <span>→</span> Measure <span>→</span> Learn</p><p>GitHubを中心に、repoを成果物、wikiを知識、issueを次の行動、workflowを実行系として扱う。小さく作って公開し、データとフィードバックから更新する。</p></div></section>
+
+<section><div class="wrap"><h2>Now</h2><div class="grid">
+  <article class="card"><h3>Agent / Workflow</h3><p>LangGraph、GitHub Actions、PLEGO、Tangoを組み合わせ、Research → Data → Deployのループを作る。</p></article>
+  <article class="card"><h3>Culture × Data</h3><p>寄席、アイドル、音楽、フェスなどの「現場」をデータベース化し、検索・推薦・研究へつなげる。</p></article>
+  <article class="card"><h3>Architecture × AI</h3><p>建築・BIM・CAD・Mesh・Parametric DesignとAIをつなぎ、現場で使える道具を作る。</p></article>
+</div></div></section>
+
+<section><div class="wrap"><h2>Background</h2><p>写真・アート・旅行から始まり、建設・建築の現場を経験。現在はAI / Software Engineeringへ領域を拡張し、現場感覚を失わない技術開発を目指している。</p><p><a href="https://github.com/bonsai">github.com/bonsai →</a></p></div></section>
+</main>
+<footer><div class="wrap">© 2026 bonsai · Built with GitHub Pages</div></footer>
+</body></html>
